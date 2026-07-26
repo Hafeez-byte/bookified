@@ -1,0 +1,17 @@
+import UploadForm from "@/components/UploadForm";
+
+const Page = () => {
+    return (
+        <main className="wrapper conatiner pt-18">
+            <div className="mx-auto max-w-180 space-y-10">
+                <section className="flex flex-col gap-5">
+                    <h1 className="page-title-xl">Add a New Book</h1>
+                    <p className="subtitle">Upload a PDF to generate your interactive interview</p>
+                </section>
+            </div>
+
+            <UploadForm />
+        </main>
+    )
+}
+export default Page
